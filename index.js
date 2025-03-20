@@ -14,7 +14,6 @@ app.get("/home", (req, res) => {
   res.send(`Home ${Date.now()}.`);
 });
 
-    city: "Karachi",
 
 //PORT capital main likhay gay hamesha. process.env.PORT is ka mtlab hai k mujhai jo bhi url assign ho mera server kam kray us par.
 const PORT = process.env.PORT || 3000;
